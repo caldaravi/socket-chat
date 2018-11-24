@@ -1,3 +1,10 @@
+// {
+//     id: 'ALkjdaklsdj-asdkj',
+//     nombre: 'Fernando',
+// }
+
+
+
 class Usuarios {
 
     constructor() {
@@ -15,11 +22,9 @@ class Usuarios {
     }
 
     getPersona(id) {
-
         let persona = this.personas.filter(persona => persona.id === id)[0];
 
         return persona;
-
     }
 
     getPersonas() {
@@ -41,7 +46,9 @@ class Usuarios {
 
     }
 
+
 }
+
 
 module.exports = {
     Usuarios
